@@ -1,12 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a541b204e2.js" crossorigin="anonymous"></script>
     <title>&#128187 Admin Dashboard</title>
 </head>
+
 <body>
-    
+    <div id="container">
+        <div id="sidebar">
+            <div id="logo">
+                <i class="fa-solid fa-id-card"></i>
+                Dashboard
+            </div>
+
+            <div class="stack">
+                <a href="" class="side-item"><i class="fa-solid fa-house"></i>home</a>
+                <a href="" class="side-item"><i class="fa-solid fa-user"></i>profile</a>
+                <a href="" class="side-item"><i class="fa-solid fa-message"></i>messages</a>
+                <a href="" class="side-item"><i class="fa-solid fa-clock-rotate-left"></i>history</a>
+                <a href="" class="side-item"><i class="fa-solid fa-note-sticky"></i>tasks</a>
+                <a href="" class="side-item"><i class="fa-solid fa-users"></i>communities</a>
+            </div>
+
+            <div class="stack">
+                <a href="" class="side-item"><i class="fa-solid fa-cog"></i>settings</a>
+                <a href="" class="side-item"><i class="fa-solid fa-circle-question"></i>support</a>
+                <a href="" class="side-item"><i class="fa-solid fa-user-shield"></i>privacy</a>
+            </div>
+        </div>
+
+        <div id="navbar">
+            <div class="upper">
+
+                <div id="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text">
+                </div>
+                <div id="profile">
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="https://i.pinimg.com/564x/14/96/c3/1496c311156e7f5cd25b547b59f72c79.jpg" alt="">
+                    <p>Shawn Orion</p>
+                </div>
+
+            </div>
+            <div class="lower">
+                
+                <div>
+                    <img class="img-med" src="https://i.pinimg.com/564x/14/96/c3/1496c311156e7f5cd25b547b59f72c79.jpg" alt="">
+                    <div class="greetings">
+                        <p>hi there,</p>
+                        <h2>Shawn Orion (@shawn0rion)</h2>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="btn-blue">New</button>
+                    <button class="btn-blue">Upload</button>
+                    <button class="btn-blue">Share</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="box-container">
+            <div id="projects">
+                <h3>Your Projects</h3>
+                <div id="project-grid">
+
+                    <div class="project">
+                        <div>
+                            <h3>Super Cool Project</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aut a architecto necessitatibus officia amet assumenda nulla nihil reiciendis perferendis.</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div>
+                            <h3>Less Cool Project</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aut a architecto necessitatibus officia amet assumenda nulla nihil reiciendis perferendis.</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div>
+                            <h3>Impossible App</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aut a architecto necessitatibus officia amet assumenda nulla nihil reiciendis perferendis.</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div>
+                            <h3>Easy Peasy App</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aut a architecto necessitatibus officia amet assumenda nulla nihil reiciendis perferendis.</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div>
+                            <h3>Ad blocker</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aut a architecto necessitatibus officia amet assumenda nulla nihil reiciendis perferendis.</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div>
+                            <h3>Money Maker</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aut a architecto necessitatibus officia amet assumenda nulla nihil reiciendis perferendis.</p>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="announcements">
+                <h3>Announcements</h3>
+                <div class="card" id="announcements-box">
+
+                    <div class="article-item">
+                        <p class="title">site maintenence</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis.</p>
+                    </div>
+                    <div class="article-item">
+                        <p class="title">community share day</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur. Lorem ipsum dolor sit.</p>
+                    </div>
+                    <div class="article-item">
+                        <p class="title">upload privacy policy</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem natus tenetur minus voluptas.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="trending">
+                <h3>Trending</h3>
+
+                <div class="card" id="trending-grid">
+
+                    <div class="user-item">
+                        <img src="https://i.pinimg.com/564x/0f/fc/41/0ffc41dd114e3e2748797308fbd79533.jpg" alt="">
+                        <div>
+                            <p class="username">
+                                @user
+                            </p>
+                            <p>Clever Creator</p>
+                        </div>
+                    </div>
+                    <div class="user-item">
+                        <img src="https://i.pinimg.com/564x/08/53/37/085337bd3b8103cb15cf3a8c0b61701e.jpg" alt="">
+                        <div>
+                            <p class="username">
+                                @user
+                            </p>
+                            <p>Clever Creator</p>
+                        </div>
+                    </div>
+                    <div class="user-item">
+                        <img src="https://i.pinimg.com/564x/93/7b/de/937bded1e75e731493af638514e59435.jpg" alt="">
+                        <div>
+                            <p class="username">
+                                @user
+                            </p>
+                            <p>Clever Creator</p>
+                        </div>
+                    </div>
+                    <div class="user-item">
+                        <img src="https://i.pinimg.com/236x/fd/0e/94/fd0e9496009f072cb87e44dd27935a11.jpg" alt="">
+                        <div>
+                            <p class="username">
+                                @user
+                            </p>
+                            <p>Clever Creator</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
 </body>
+
 </html>
